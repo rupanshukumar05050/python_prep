@@ -3,9 +3,9 @@ students = {}
 no_of_students = int(input("Enter the Number of student: "))
 
 for i in range(no_of_students):
-  roll_no = int(input("Enter your Roll no: ")
+  roll_no = int(input("Enter your Roll no: "))
   name_ = input("Enter your Name: ")
-  age = int(input("Enter your Age: ")
+  age = int(input("Enter your Age: "))
   course = input("Enter your Course: ")
 
        students[roll_no] = {
