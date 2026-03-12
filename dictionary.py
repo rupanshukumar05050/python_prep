@@ -15,4 +15,4 @@ for i in range(no_of_students):
        }
 print("\nStudent Records:")
 for l in students:
-  print(l, "i", studentS[l])
+  print(l, ":", studentS[l])
