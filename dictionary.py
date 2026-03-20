@@ -8,11 +8,11 @@ for i in range(no_of_students):
   age = int(input("Enter your Age: "))
   course = input("Enter your Course: ")
 
-       students[roll_no] = {
+  students[roll_no] = {
          "Name" : name_,
          "Age" : age,
          "Course" : course
        }
 print("\nStudent Records:")
 for l in students:
-  print(l, ":", studentS[l])
+  print(l, ":", students[l])
